@@ -1,0 +1,334 @@
+.class1{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #fff;
+}
+.logo{
+    padding: 5px;
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 105%;
+    text-align: center;
+    background-color:  rgb(250, 164, 34);
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+ul{
+    list-style: none;
+    margin: 0 auto;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    font-weight: 700;
+    transition: .5s;
+}
+.menu ul{
+    background-color: rgb(250, 164, 34);
+    
+    overflow: hidden;
+}
+.menu li{
+    
+    float: left;
+}
+
+.menu a{
+    display: block;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 90px;
+    background-color: rgb(250, 164, 34);
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: rgb(243, 121, 40);
+    transform: scale(1.3);
+}
+.kupon{
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    float: right;
+    margin-bottom: 500px;
+
+}
+.oblozimg{
+    background-color: rgb(239, 246, 255);
+    background-image: url(..//img/бурегер\ главное.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 850px;
+    width: 100%;
+}
+
+*{box-sizing:border-box;}
+.class2 {float:left;width:25%;}
+.row:after{content:"";display:table;clear:both;  }
+
+.class2{
+    background:  url(..//img/бургер.jpg); background-size: cover;
+    margin:  80px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(199, 166, 166);      
+}
+.class2:hover{
+    background:  url(..//img/2бургер.jpg); background-size: cover;
+    transition-duration:.7s;
+}
+*{box-sizing:border-box;}
+.class3 {float:left;width:25%;}
+.row:after{content:"";display:table;clear:both;}
+
+.class3{
+    background:  url(..//img/1kartoshka-fri-na-skovorode_1581661860_11_max.jpg); background-size: cover;
+    margin:  80px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(199, 166, 166);   
+}
+.class3:hover{
+    background:  url(..//img/2kartoshka-fri-na-skovorode_1581661860_11_max.jpg); background-size: cover;
+    transition-duration:.7s;
+}
+*{box-sizing:border-box;}
+.class4 {float:left;width:25%;}
+.row:after{content:"";display:table;clear:both;}
+
+.class4{
+    background:  url(..//img/humphrey-muleba-jABXuTS1azc-unsplash.jpg); background-size: cover;
+    margin:  80px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(199, 166, 166);   
+}
+.class4:hover{
+    background:  url(..//img/2humphrey-muleba-jABXuTS1azc-unsplash.jpg); background-size: cover;
+    transition-duration:.7s;
+}
+
+*{box-sizing:border-box;}
+.class5 {float:left;width:25%;}
+.row:after{content:"";display:table;clear:both;}
+
+.class5{
+    background:  url(..//img/салат.jpg); background-size: cover;
+    margin:  80px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(199, 166, 166);   
+}
+.class5:hover{
+    background:  url(..//img/2салат.jpg); background-size: cover;
+    transition-duration:.7s;
+}
+.textcatal{
+    padding: 8px;
+    text-align: center;
+    margin: 320px 20px;
+    background-color: rgb(243, 121, 40);
+    color: rgb(255, 255, 255);
+    margin-bottom: 200px;
+}
+.textcatal:hover{
+    background-color: rgb(243, 121, 40);
+    transform: scale(1.1);
+    transition-duration:.6s;
+}
+.zagolovok{
+    text-align: center;
+    color: rgb(158, 76, 9);
+    font-weight: 850;
+}
+
+#tr-property{
+    background-color: rgba(203, 178, 243, 0);
+    margin:  80px ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition-property: background-color;
+}
+#tr-property:hover{
+    background-color: rgb(162, 102, 218);
+}
+.text1{
+    padding: 80px;
+    
+}
+.text2{
+    
+    font-size: 15pt;
+    color: rgb(112, 61, 19);
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.div-div2{
+    padding: 120px;
+    background-color: #fff;
+}
+.zagolovok2{
+    padding: 35px;
+    text-align: center;
+    color: rgb(158, 76, 9);
+    font-weight: 850;
+}
+.div-div2{
+    padding: 210px;
+    background-color: #fff;
+}
+
+
+
+#slider{ /*положение слайдера*/
+    position: relative;
+    text-align: center;
+    top: 10px;
+
+}
+#slider{ /*centrovka*/
+    margin: 0 auto;
+}
+#slider article{ /*img sprava dryg ot dryga*/
+    width: 20%;
+    float: left;
+}
+#slider .image{ /*ystanavl obshiu razmer bloka s img*/
+    width: 500%;
+    line-height: 0;
+}
+#overflow{ /*skruvaet vse что находится за пределами блока*/
+    width: 100%;
+    overflow: hidden;
+}
+article img{ /*размер изображений в слайдере*/
+    width: 100%;
+}
+#dector:checked ~ #slider{ /*размер всего слайдера*/
+    min-width: 960px;
+}
+/*настройка переключателя и положения для левой стрелки*/
+#switch3:checked ~ #controls label:nth-child(3),
+#switch1:checked ~ #controls label:nth-child(1),
+#switch2:checked ~ #controls label:nth-child(2){
+    background-color: url(..//img/next.png) no-repeat;/*Заливка фона картинкой без повторений*/
+    float: left;
+    margin: 0 0 0 -84px; /*здвиг влево*/
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+/*настройка переключения и положения ддля правой стрелки*/
+#switch3:checked ~ #controls label:nth-child(3),
+#switch1:checked ~ #controls label:nth-child(1),
+#switch2:checked ~ #controls label:nth-child(2){
+    background-color: url(..//img/next.png) no-repeat;/*Заливка фона картинкой без повторений*/
+    float: right;
+    margin: 0 -84px 0 0; /*здвиг право*/
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+label, a{ /*При наведении стрелка превращается в палец*/
+    cursor: pointer;
+}
+.all input{
+    display: none;
+}
+/*Позиция изобращения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+    margin-left: 0;
+}
+#switch2:checked ~ #slides .image{
+    margin-left: -100%;
+}
+#switch3:checked ~ #slides .image{
+    margin-left: -200%;
+}
+#controls{ /*положение блока всех управляющих элементов*/
+    margin: -25% 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+#active label{ /*Стиль отдельного переключателя*/
+    border-radius: 10px;/*скругление углов*/
+    display: inline-block;/*расположение в строку*/
+    width: 15px;
+    height: 15px;
+    background-color: #bbb;
+}
+#active{ /*расположение блоков с переключателями*/
+    margin: 23% 0 0;
+    text-align: center;
+}
+#active label:hover{ /*поведение чекбокса при наведении*/
+    background-color: #b65116;
+    border-color: #777 !important; /*выполнение в любом случае*/
+}
+/*цвет активного переключателя*/
+#switch1:checked ~ #controls label:nth-child(1),
+#switch2:checked ~ #controls label:nth-child(2),
+#switch3:checked ~ #controls label:nth-child(3){
+    background-color: #b65116;
+    border-color: #b65116 !important;
+}
+#slides .image{
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+#controls label:hover{
+    opacity: 0.6 ;
+}
+#controls label{
+    transition: opacity 0.2s ease-out ;
+}
+.div-div3{
+    background-color: #fff;
+    padding: 15px;
+}
+.footer-div{
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    height: 250px;
+    color: rgb(214, 214, 214);
+}
+.footer-text1{
+    float: left;
+    padding: 20px;
+    margin-left: 360px;
+}
+.footer-text2{
+    float: right;
+    padding: 30px;
+    margin-right: 330px;
+}
+.div4{
+    background-color: rgb(231, 116, 39);
+    padding: 4px;
+    width: 100%;
+    height: 5px;
+}
+
+
